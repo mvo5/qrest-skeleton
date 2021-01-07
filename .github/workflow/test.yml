@@ -1,0 +1,11 @@
+on: [push, pull_request]
+name: Unit tests
+steps:
+- name: Install Go
+  uses: actions/setup-go@v2
+  with:
+    go-version: latest
+- name: Checkout code
+  uses: actions/checkout@v2
+- name: Run unit tests
+  run: go test ./...
