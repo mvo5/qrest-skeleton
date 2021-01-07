@@ -7,12 +7,12 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/mvo5/qrest-skeleton/backend"
-	"github.com/mvo5/qrest-skeleton/mgrd"
+	"snapcraft.io/qrest/backend"
+	"snapcraft.io/qrest/mgrd"
 )
 
 type apiSuite struct {
-	d     *mgrd.Mgrd
+	d        *mgrd.Mgrd
 	quotaMgr *backend.QuotaManager
 }
 
@@ -42,4 +42,3 @@ func (s *apiSuite) TestSlashRoot(c *C) {
 func (s *apiSuite) TestQuotaCreateHappy(c *C) {
 	// ...
 }
-

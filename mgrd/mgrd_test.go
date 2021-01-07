@@ -7,7 +7,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/mvo5/qrest-skeleton/mgrd"
+	"snapcraft.io/qrest/mgrd"
 )
 
 func Test(t *testing.T) { TestingT(t) }

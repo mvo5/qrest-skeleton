@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/mvo5/qrest-skeleton/backend"
-	"github.com/mvo5/qrest-skeleton/mgrd"
+	"snapcraft.io/qrest/backend"
+	"snapcraft.io/qrest/mgrd"
 )
 
 func run() error {

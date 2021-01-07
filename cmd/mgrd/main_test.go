@@ -9,7 +9,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	main "github.com/mvo5/qrest-skeleton/cmd/mgrd"
+	main "snapcraft.io/qrest/cmd/mgrd"
 )
 
 func Test(t *testing.T) { TestingT(t) }

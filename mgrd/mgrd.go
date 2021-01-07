@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/mvo5/qrest-skeleton/backend"
+	"snapcraft.io/qrest/backend"
 )
 
 type Mgrd struct {
@@ -90,4 +90,3 @@ func (r *Mgrd) Wait() error {
 		return fmt.Errorf("mgrd errored: %v", errs)
 	}
 }
-
